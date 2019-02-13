@@ -1,202 +1,279 @@
-
 /* DEFAULT*/
-*{
-    margin: 0%;
-    padding: 0%; 
+* {
+  margin: 0%;
+  padding: 0%;
 }
 
 /*  STYLING COMMON elements AND header FOR ALL PAGES*/
 
-body{
-    color: #777777;
-    background-color: #efeee7;
-    font-family: 'Ubuntu', sans-serif;
-    line-height: 1.5;
+body {
+  color: #777777;
+  background-color: #efeee7;
+  font-family: "Ubuntu", sans-serif;
+  line-height: 1.5;
 }
 
-header{
-    background: #ffffff;
-    border-bottom: 1px solid #cccccc;
-    display: flex;
-    justify-content: center;
-    height: 4rem;
+header {
+  background: #ffffff;
+  border-bottom: 1px solid #cccccc;
+  display: flex;
+  justify-content: center;
+  height: 4rem;
 }
 
-.headings{
-    font-family: 'Staatliches', cursive;
-    letter-spacing: 1px;
+.headings {
+  font-family: "Staatliches", cursive;
+  letter-spacing: 1px;
 }
 
-.nav{
-    width: 60rem;
-    display: flex;
-    justify-content: space-between;
+.nav {
+  width: 60rem;
+  display: flex;
+  justify-content: space-between;
 }
 
-.hNavLink{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 14rem;
+.hNavLink {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 14rem;
 }
 
-#hName{
-    width: 24rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #eeeeee;
-    background-color: #263238;
+#hName {
+  width: 24rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #eeeeee;
+  background-color: #263238;
 }
 
-.hNavLink .hAnchor
-{
-    text-decoration: none;
-    color: #777777;
+.hNavLink .hAnchor {
+  text-decoration: none;
+  color: #777777;
 }
-.hNavLink .hAnchor:hover{
-    color: #2a344c;
-}
-
-.container{
-    width: 60rem;
-    margin: 2rem auto;
-    background-color: #ffffff;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border: 1px solid #dddddd;
-    margin-bottom: 11.5rem;
+.hNavLink .hAnchor:hover {
+  color: #2a344c;
 }
 
-.h2heading{
-    color: #263238;
-    height: 4rem;
-    display: flex;
-    align-items: center;
-    border-bottom: 2px solid #dddddd;
-    width: 56rem;
+.container {
+  width: 60rem;
+  margin: 2rem auto;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #dddddd;
+  margin-bottom: 11.5rem;
+}
+
+.h2heading {
+  color: #263238;
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  border-bottom: 2px solid #dddddd;
+  width: 56rem;
 }
 
 /* INDEX PAGE*/
-img{
-    width: 12rem;
-    height: 12rem;
+img {
+  width: 12rem;
+  height: 12rem;
 }
 
-.content{
-    width: 56rem;
-    display: flex;
-    margin: 1.5rem 0;    
+.content {
+  width: 56rem;
+  display: flex;
+  margin: 1.5rem 0;
 }
 
-.about-sec1-text{
-    margin: 0 1rem;
-    font-size: 17px;
+.about-sec1-text {
+  margin: 0 1rem;
+  font-size: 17px;
 }
 
-.about-sec1-text p{
-    font-family: 'Ubuntu', sans-serif;
+.about-sec1-text p {
+  font-family: "Ubuntu", sans-serif;
 }
 
 /* FOOTER */
-footer{
-    border-top: 3px solid #263238;
-    text-align: center;
-    color: #ffffff;
-    background-color: #666666;
-    padding: 1rem;
+footer {
+  border-top: 3px solid #263238;
+  text-align: center;
+  color: #ffffff;
+  background-color: #666666;
+  padding: 1rem;
 }
 
 /* STYLING CONTACT PAGE*/
-form{
-    margin: 1rem;
-    font-family: 'Ubuntu', sans-serif;
+form {
+  margin: 1rem;
+  font-family: "Ubuntu", sans-serif;
 }
 
-.f-content
-{
-    display: flex;
-    flex-direction: column;
+.f-content {
+  display: flex;
+  flex-direction: column;
 }
 
 #fname,
 #femail,
-#fmessage
-{
-    width: 55rem;
-    margin-bottom: 0.8rem;
-    padding: 8px 10px;;
-    border: 1px solid #dddddd;
+#fmessage {
+  width: 55rem;
+  margin-bottom: 0.8rem;
+  padding: 8px 10px;
+  border: 1px solid #dddddd;
 }
 
-.f-button{
-    color: #ffffff;
-    padding: 0.4rem 0.8rem;
-    background-color: #4aaaa5;
-    border: none;
-    font-family: 'Ubuntu', sans-serif;
-    border-radius: 0.3rem;
-    font-size: 16px;
+.f-button {
+  color: #ffffff;
+  padding: 0.4rem 0.8rem;
+  background-color: #4aaaa5;
+  border: none;
+  font-family: "Ubuntu", sans-serif;
+  border-radius: 0.3rem;
+  font-size: 16px;
 }
 
-.f-button:hover{
-   background-color: #185263db;
+.f-button:hover {
+  background-color: #185263db;
 }
 
-.container.thispg2{
-    margin-bottom: 7.5rem;
+.container.thispg2 {
+  margin-bottom: 7.5rem;
 }
 
 input:hover,
-textarea:hover{
-    background: #dddddd;
+textarea:hover {
+  background: #dddddd;
 }
 
 /* portfolio page */
-.gallery{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    height: 35rem;
-    margin: 2rem;
-    margin-left: 3rem;
+.gallery {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 35rem;
+  margin: 2rem;
+  margin-left: 3rem;
 }
 
-.g-img{
-    position: relative;
-    width: 16rem;
-    height: 14rem;
+.g-img {
+  position: relative;
+  width: 16rem;
+  height: 14rem;
 }
 
-.heading3{
-    position: absolute;
-    z-index: 1;
-    width: 16rem;
-    margin-top: 9.5rem;
-    padding: 0.7rem 0;
-    text-align: center;
-    color: #ffffff;
-    background-color: #263238;
+.heading3 {
+  position: absolute;
+  z-index: 1;
+  width: 16rem;
+  margin-top: 9.5rem;
+  padding: 0.7rem 0;
+  text-align: center;
+  color: #ffffff;
+  background-color: #263238;
 }
 
-.g-block{ 
-    width: 16rem;
-    height: 14rem;
-    font-family: 'Ubuntu', sans-serif;
-    margin: 1rem;
+.g-block {
+  width: 16rem;
+  height: 14rem;
+  font-family: "Ubuntu", sans-serif;
+  margin: 1rem;
 }
 
-.g-block:hover{
-    box-shadow: -14px -15px 5px #dddddd;
+.g-block:hover {
+  box-shadow: -14px -15px 5px #dddddd;
 }
 
-.container.thispg1{
-    align-items: flex-start;
+.container.thispg1 {
+  align-items: flex-start;
+  margin-bottom: 2rem;
+}
+
+.h2heading.thispg-heading {
+  margin: 0 2rem;
+}
+
+@media (max-width: 768px) {
+  /* Nav Bar */
+
+  .header {
+    display: none;
+  }
+
+  .nav {
+    width: 100%;
+    display: inline;
+  }
+  #hName {
+    width: 100%;
+    font-size: 2.5rem;
+  }
+  header {
+    height: 100%;
+  }
+  .hNavLink {
+    width: 100%;
+    justify-content: center;
+  }
+  .hNavLink .hAnchor {
+    padding: 0 1.5rem;
+    font-size: 1.4rem;
+  }
+
+  .container {
+    width: 80%;
     margin-bottom: 2rem;
-}
+  }
 
-.h2heading.thispg-heading{
-    margin: 0 2rem;
-}
+  .h2heading {
+    width: 100%;
+    justify-content: center;
+  }
 
+  /* About Me */
+
+  .content {
+    width: 90%;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .about-sec1-text {
+    margin: 0;
+  }
+
+  .about-sec1-text p {
+    margin: 1rem;
+  }
+
+  /* Portfolio */
+
+  .h2heading.thispg-heading {
+    margin: 0;
+  }
+
+  .gallery {
+    height: 100%;
+    margin: 1rem auto;
+  }
+
+  .container.thispg1 {
+    align-items: center;
+  }
+
+  /* Contact */
+
+  #fname,
+  #femail,
+  #fmessage {
+    width: 90%;
+  }
+
+  .container.thispg2 {
+    margin-bottom: 2rem;
+  }
+}
